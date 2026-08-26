@@ -7,7 +7,7 @@ public class Calculator {
 	}
 	
 	void calculatearea(int length,int breadth) {
-		System.out.println("Area of Rectangle is: "  + 1/2 * length * breadth);	
+		System.out.println("Area of Rectangle is: " +  length * breadth);	
 	}
 	
 	void calculatearea(int side) {
