@@ -18,7 +18,7 @@ class Dog extends Animal{
 	}
 }
 
-public class CompileTimePloymorphisum {
+public class RunTimePloymorphisum {
 public static void main(String[] args) {
 	Animal animal = new Cat();
 	animal.sound();
