@@ -11,11 +11,14 @@ class Account{
 			Thread.sleep(2000);
 		} catch (Exception e) {
 			System.out.println(e);
+		} finally {
+			System.out.println("hii");
 		}
 		
 		balance = currentBalance + amount;
 		
-		System.out.println(Thread.currentThread().getName() + " completed Balance = " + balance);
+		System.out.println(Thread.currentThread().getName() + " completed Balance is = " + balance);
+		
 	}
 }
 
@@ -26,7 +29,7 @@ class DepositeTask implements Runnable{
 	public DepositeTask(Account account) {
 		this.account=account;
 	}
-	
+
 	@Override
 	public void run() {
 	 account.deposite(700);
