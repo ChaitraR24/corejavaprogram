@@ -20,7 +20,7 @@ public class SalarySystem {
 		
 		System.out.println("Contains the salary : " + treeSet.contains(40000));
 		
-		System.out.println("Lowest Salary : " + treeSet.first());
+		System.out.println("Lowest Salary    : " + treeSet.first());
 		
 		System.out.println("Highest Salary : " + treeSet.last());
 		
