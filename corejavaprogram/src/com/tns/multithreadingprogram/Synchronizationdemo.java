@@ -20,7 +20,7 @@ class Account{
 		System.out.println(Thread.currentThread().getName() + " completed Balance is = " + balance);
 		
 	}
-}
+} 
 
 class DepositeTask implements Runnable{
  
