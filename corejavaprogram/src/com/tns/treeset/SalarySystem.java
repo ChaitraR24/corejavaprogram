@@ -26,7 +26,7 @@ public class SalarySystem {
 		
 //		below
 		System.out.println(treeSet.headSet(40000));
-		
+		                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
 //		above
 		
 		System.out.println(treeSet.tailSet(40000));
