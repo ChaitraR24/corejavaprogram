@@ -22,7 +22,7 @@ public class SalarySystem {
 		
 		System.out.println("Lowest Salary    : " + treeSet.first());
 		
-		System.out.println("Highest Salary : " + treeSet.last());
+		System.out.println("Highest Salary    : " + treeSet.last());
 		
 //		below
 		System.out.println(treeSet.headSet(40000));
